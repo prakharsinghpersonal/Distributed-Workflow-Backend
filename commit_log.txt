@@ -1,2 +1,3 @@
 - Commit 2 (REST Core): Build the foundational Express.js CRUD routes to define, update, and manage operational workflows.
 - Commit 3 (Event-Driven Real-time): Integrate Socket.io. Emit state changes from the workflow engine to connected clients to ensure real-time synchronization.
+- Commit 4 (Scaling & Load Handling): Implement Redis adapter for Socket.io to allow multi-node scaling. Write a load-testing script to simulate high-velocity client loads.
